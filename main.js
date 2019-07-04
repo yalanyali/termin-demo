@@ -4532,7 +4532,7 @@ __webpack_require__.r(__webpack_exports__);
 var apiRemote = 'https://termin-api.herokuapp.com/api';
 var apiLocal = 'http://localhost:8080/api';
 var apiLAN = 'http://192.168.0.31:8080/api';
-var url = apiLocal;
+var url = 'http://yigit.crabdance.com'; //apiLocal;
 var environment = {
     production: false,
     apiUrl: url
