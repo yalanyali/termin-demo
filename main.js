@@ -2889,7 +2889,7 @@ var FormNewAppointmentComponent = /** @class */ (function () {
             this.formError.type = 'value';
             this.buttonFeedback({
                 'color': 'warn',
-                'text': 'Die Terminzeit nicht festgelegt'
+                'text': 'Terminzeit nicht festgelegt'
             });
             return;
         }
