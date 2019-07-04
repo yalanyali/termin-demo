@@ -2926,7 +2926,7 @@ var FormNewAppointmentComponent = /** @class */ (function () {
                 if (res.success) {
                     _this.buttonFeedback({
                         'color': 'accent',
-                        'text': 'Success'
+                        'text': 'Erfolgreich'
                     }, true);
                 }
                 else {
@@ -2946,7 +2946,7 @@ var FormNewAppointmentComponent = /** @class */ (function () {
                 if (res.success) {
                     _this.buttonFeedback({
                         'color': 'accent',
-                        'text': 'Success'
+                        'text': 'Erfolgreich'
                     }, true);
                 }
                 else {
