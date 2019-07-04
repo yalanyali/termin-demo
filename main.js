@@ -2889,7 +2889,7 @@ var FormNewAppointmentComponent = /** @class */ (function () {
             this.formError.type = 'value';
             this.buttonFeedback({
                 'color': 'warn',
-                'text': 'Appointment time was not set!'
+                'text': 'Die Terminzeit nicht festgelegt'
             });
             return;
         }
@@ -2897,7 +2897,7 @@ var FormNewAppointmentComponent = /** @class */ (function () {
             this.formError.type = 'value';
             this.buttonFeedback({
                 'color': 'warn',
-                'text': 'Description was not set!'
+                'text': 'Keine Angabe für Beschwerde'
             });
             return;
         }
@@ -2905,7 +2905,7 @@ var FormNewAppointmentComponent = /** @class */ (function () {
             // Weekend
             this.buttonFeedback({
                 'color': 'warn',
-                'text': 'Wochendende'
+                'text': 'Wochenende'
             });
             return;
         }
